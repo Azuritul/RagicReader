@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:layout_width="fill_parent"
+                     android:layout_height="fill_parent">
+
+            <TableRow android:padding="5dip">
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:layout_gravity="left"
+                          android:text="@string/core_app_name"/>
+            </TableRow>
+
+            <TableRow android:padding="3dip">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:autoLink="email"
+                          android:text="非常感謝大家使用本軟體。本軟體是由Azuritul所開發。若對Ragic有任何建議或問題，歡迎隨時寄信至sales@ragic.com與我們聯絡"/>
+            </TableRow>
+            
+            <TableRow android:padding="3dip">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="fill_parent"
+                          android:text="©2010 Ragic Corp. All Rights Reserved"/>
+            </TableRow>
+
+        </TableLayout>
+</ScrollView>

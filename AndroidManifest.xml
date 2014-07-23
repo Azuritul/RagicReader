@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ragic.android.reader">
+    <application android:name="com.ragic.android.reader.GlobalObject"
+                 android:icon="@drawable/ic_launcher"
+                 android:label="Ragic Reader for Android">
+        <!-- Activity Declaration -->
+        <activity android:name=".AppListActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"
+                  android:label="LoginActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".SheetListActivity"
+                  android:label="SheetListActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".EntryListActivity"
+                  android:label="EntryListActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".BaseListActivity"
+                  android:label="BaseListActivity"
+                  android:screenOrientation="portrait"/>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

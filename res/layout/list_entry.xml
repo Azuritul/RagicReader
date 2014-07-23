@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/list_app_root"
+                android:background="#FFFFFF">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/panel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#121212"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:padding="6dp">
+
+        <!--<Button android:id="@+id/button_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="1dip"
+                android:background="@drawable/profile"/>-->
+
+        <ImageView android:id="@+id/login_logo"
+                   android:src="@drawable/login_logo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingTop="4dp"
+                   android:layout_marginLeft="2dip"
+                   
+                   android:layout_alignParentLeft="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/positionBar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/panel"
+                    android:background="#FFF5A0">
+
+        <!--<TextView android:id="@+id/greetings"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="2dip"
+                  android:padding="2dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:gravity="left|center_vertical"
+                  android:textColor="#1984A5"/>-->
+
+        <TextView android:id="@+id/positionInfo"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="2dip"
+                  android:padding="2dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:gravity="left|center_vertical"
+                  android:textColor="#000000"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_below="@id/positionBar"
+        android:cacheColorHint="#00000000"/>
+
+    <!--<TextView android:id="@+id/greetings"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="2dip"
+              android:padding="2dip"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:gravity="left|center_vertical"
+              android:textColor="#1984A5"/>-->
+    <TextView
+        android:id="@+id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/panel"
+        android:text="@string/msg_empty_feed"
+        android:gravity="center"
+        android:textColor="#1984A5"
+        android:layout_weight="1"/>
+
+</RelativeLayout>

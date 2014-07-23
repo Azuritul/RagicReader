@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_app_name">Ragic Reader for Android 1.0.0</string>
+    <string name="core_official_web">網站 http://www.ragic.com</string>
+    <string name="core_contact_mail">聯絡信箱 sales@ragic.com</string>
+    <string name="core_current_version">1.0.0</string>
+    <string name="core_app_developer">Azuritul</string>
+    <string name="core_time_zone">Asia/Taipei</string>
+
+    <string name="param_feed_url">FEED_URL</string>
+
+    <string name="button_refresh">更新</string>
+    <string name="button_close">關閉</string>
+    <string name="button_confirm">確定</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_signout">登出</string>
+    <string name="button_about">關於</string>
+    <string name="button_add_account">新增帳號</string>
+
+    <string name="errmsg_invalid_login">登入資訊錯誤，請重試</string>
+    <string name="errmsg_loading_error">網路訊號不穩定，無法載入資料</string>
+    <string name="msg_authenticating">登入中，請稍候</string>
+    <string name="msg_signout">登出中，請稍候</string>
+    <string name="msg_signout_alert">登出時，會將您的Ragic資料移出手機，您要登出嗎?</string>
+    <string name="msg_empty_feed">無資料</string>
+    <string name="msg_about">Ragic Reader for Android</string>
+    <string name="msg_add_account">輸入帳號</string>
+    <string name="msg_add_account_title">新增帳號</string>
+    <string name="msg_switch_account_title">切換帳號</string>
+    <string name="msg_loading">載入資訊...</string>
+</resources>
